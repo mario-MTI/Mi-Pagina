@@ -32,7 +32,7 @@
         <i class="fa fa-bars" id="menu-toggle"></i>
         <div id="menu" class="menu">
           <i class="fa fa-times" id="menu-close"></i>
-          <div class="container">
+           <div class="container">
             <div class="image">
               <a href="#"><img src="imagenes/ManWhite.png" alt="" /></a>
             </div>
@@ -40,15 +40,18 @@
               <h4>Mario Hernandez</h4>
               <span>Ing. Industrial en Electronica</span>
             </div>
+          
             <nav class="main-nav" role="navigation">
-              <ul class="main-menu">
+              <ul class="main-menu" style="padding: 0; margin: 0;list-style: none;">
                 <li><a href="#section1">Acerca de mi</a></li>
                 <li><a href="#section2">En lo que soy bueno</a></li>
                 <li><a href="#section4">Contactame</a></li>
               </ul>
             </nav>
+            <div>
+          <div class="main-icon">
             <div class="social-network">
-              <ul class="social-icons">
+              <ul class="soial-icons">
                 <li>
                   <a href="#"
                     ><i class="fa fa-facebook"></i
@@ -68,8 +71,13 @@
                 </li>
               </ul>
             </div>
+          </div>
+          
+            
+
+
             <div class="copyright-text">
-              <p>Copyright 2020 MH</p>
+              <p>Copyright 2020 MH Design</p>
             </div>
           </div>
         </div>
@@ -81,8 +89,8 @@
             <h2>Acerca de mi</h2>
             <div class="line-dec"></div>
             <span
-              >Mi nombre es Mario, soy Ing. Industrial en Electronica, recido en la ciudad de Tijuana, mi area laboral es el departamento de sistemas
-              dentro de una empresa que se dedica a hacer palos de hockey tanto para profesionales como para amateurs.</span
+              >Mi nombre es Mario, soy Ing. en Industrial en Eletronica, recido en la ciudad de Tijuana, mi area laboral es el departamento de sistemas
+              dentro de una empresa que se dedica a hacer palos para jugar hockey sobre hielo tanto para profesionales como para amateurs.</span
             >
           </div>
           <div class="left-image-post">
@@ -97,31 +105,36 @@
                   <h4 style="color: #000000;">Dato laboral</h4>
                   <p style="color: rgb(94, 21, 21);">
                     Trabajo en el departamento de IT en una empresa
-                    que se dedica a hacer palos de hockey para profesionales
+                    que se dedica a hacer palos para jugar hockey sobre hielo para profesionales
                     y aficionados.
                   </p>
-                  <div class="white-button">
-                    <a href="#">Leer mas</a>
-                  </div>
+ 
+                
+                <div id="myDIV" class="header">
+                <h3>Mi To Do List</h3>
+                <input type="text" id="myInput" placeholder="Titulo...">
+                <span onclick="newElement()" class="addBtn">Add</span>
+                </div>
+
+              <ul id="myUL" class="row">
+              <li>Hacer examen de Ingles</li>
+              <li>Terminar la Tarea</li>
+              <li>Pagar los recibos</li>
+              <li>Leer un Libro</li>
+              <li>Limpiar el Patio</li>
+              <li>Practicar JavaScript</li>
+              </ul>
+
+
+
                 </div>
               </div>
             </div>
-          </div>
 
-          <div id="myDIV" class="header">
-            <h3>Mis Tareas por Hacer</h3>
-            <input type="text" id="myInput" placeholder="Titulo...">
-            <span onclick="newElement()" class="addBtn">Add</span>
-          </div>
-          
-          <ul class="row">
-            <li>Entregar la tarea de la Maestria</li>
-            <li>Pagar los Recibos</li>
-            <li>Presentar Examen de Ingles</li>
-            <li>Comprar el mandado</li>
-            <li>Limpiar el patio</li>
-          </ul>
 
+
+            
+          </div>
           <div class="right-image-post">
             <div class="row">
               <div class="col-md-6">
@@ -146,8 +159,10 @@
             </div>
           </div>
         </div>
+
       </section>
 
+ 
       <section class="section my-services" data-section="section2">
         <div class="container">
           <div class="section-heading">
@@ -161,10 +176,10 @@
             <div class="col-md-6">
               <div class="service-item">
                 <div class="first-service-icon service-icon"></div>
-                <h4>Programacion Escritorio, Moviles</h4>
+                <h4>Programacion Escritorio, </h4>
                 <p>
                   Tengo experiencuia en desarrollo
-                  de aplicaciones de escritorio y Moviles.
+                  de aplicaciones de escritorio.
                   Actualmente esta en curso un proyecto
                   de desarrollo movil para el manejo de información.
                                   </p>
@@ -348,6 +363,5 @@
         checkSection();
       });
     </script>
-   
   </body>
 </html>
